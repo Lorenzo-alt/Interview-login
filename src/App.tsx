@@ -38,7 +38,7 @@ function App() {
   return (
     <div className={styles.wrapper}>
       <div className={styles['login-form']}>
-        <h1>Login Form 🐞</h1>
+        <h1>Login 💻</h1>
         {/* Coloque a mensagem de erro de login na div abaixo. Mostre a div somente se houver uma mensagem de erro. */}
         {error && <div className={styles.errorMessage}>{error}</div>}
         <div className={styles.row}>
@@ -52,7 +52,7 @@ function App() {
           />
         </div>
         <div className={styles.row}>
-          <label htmlFor={'password'}>Password</label>
+          <label htmlFor={'password'}>Senha</label>
           <input
             id={'password'}
             type={'password'}

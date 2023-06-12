@@ -11,7 +11,7 @@ export function login({ email, password }: ObjLogin) {
       if (password === 'password123' && !!email) {
         resolve()
       } else {
-        reject({ message: 'e-mail or password wrong.' })
+        reject({ message: 'e-mail ou senha incorretos.' })
       }
     }, delay)
   })
